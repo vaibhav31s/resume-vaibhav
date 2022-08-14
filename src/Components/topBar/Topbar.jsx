@@ -1,14 +1,20 @@
 import React from "react";
 import "./topbar.scss";
-// import {Person, Mail} from "@material-ui/icons"
+import EmailIcon from '@mui/icons-material/Email';
+import PersonIcon from '@mui/icons-material/Person';
+
 const Topbar = () => {
   return (
     <div className="topbar">
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" classNa me="logo">VAIBHAV.</a>
+          <a href="#intro" className="logo">VAIBHAV</a>
           <div className="itemContainer">
+            <PersonIcon className="icon" color="yellow" /> 8805078063   
+         
           </div>
+          <div className="itemContainer"><EmailIcon className="icon" />  gawadvaibhavv@gmail.com</div>
+          
         </div>
         <div className="right">
           <a href="#portfolio">This is right</a>

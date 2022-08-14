@@ -14,8 +14,29 @@
         justify-content: space-between;
     }
     .left{
-        .logo{
-            font-size:  14px;
+        display: flex;
+        align-items: center;  
+        .itemContainer{
+            display: flex ;
+            align-items: center;
+            margin-left: 30px;
+            
+            .icon{
+                font-size: 18px;
+                margin-right: 5px ;
+            }
+            span{
+                font-size: 15px;
+                font-weight: 500;
+            }
         }
+        .logo{
+            font-size:  16px;
+            font-weight: 700;
+            text-decoration: none;
+            color: inherit; 
+            margin-right: 40px;
+            
+          }
     }
 }
