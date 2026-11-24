@@ -1,8 +1,10 @@
 import "./intro.scss";
 
 import { useEffect, useRef } from "react";
+import { init } from "ityped";
 
 export default function Intro() {
+  const textRef = useRef();
  
 
   useEffect(() => {
@@ -26,7 +28,7 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Safak Kocaoglu</h1>
           <h3>
-            Freelance <span>  </span>
+            Freelance <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">
